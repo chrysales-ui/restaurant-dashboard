@@ -1,0 +1,32 @@
+name: Refresh Restaurant Data
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch Berczy data
+        run: |
+          node scripts/fetch-data.js berczy
+        env:
+          BERCZY_SHEET_ID: 1kH0yrnjAyBW3cEvosnAqfXEYL5u_oXdeT3dMCmcSNzU
+
+      - name: Fetch Notte data
+        run: |
+          node scripts/fetch-data.js notte
+        env:
+          NOTTE_SHEET_ID: 19bp0Gxn2v8yYGjAoFYYGgE6XIr3CVZVynY73eSghue0
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/
+          git diff --staged --quiet || git commit -m "chore: refresh restaurant data [skip ci]"
+          git push

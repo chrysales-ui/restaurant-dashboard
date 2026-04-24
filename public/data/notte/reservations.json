@@ -1,0 +1,206 @@
+{
+  "summary": {
+    "total": 2282,
+    "totalCovers": 6835,
+    "avgPartySize": 3,
+    "completionRate": 73.7,
+    "cancellationRate": 10.9,
+    "noShowRate": 1.4,
+    "firstVisitRate": 43.4,
+    "returnRate": 56.6,
+    "optInRate": 7.1,
+    "avgLifetimeSpend": 392.3
+  },
+  "days": {
+    "Mon": 263,
+    "Tue": 311,
+    "Wed": 307,
+    "Thu": 388,
+    "Fri": 386,
+    "Sat": 353,
+    "Sun": 274
+  },
+  "times": [
+    {
+      "label": "3PM",
+      "count": 2,
+      "hour": 15
+    },
+    {
+      "label": "4PM",
+      "count": 91,
+      "hour": 16
+    },
+    {
+      "label": "5PM",
+      "count": 499,
+      "hour": 17
+    },
+    {
+      "label": "6PM",
+      "count": 598,
+      "hour": 18
+    },
+    {
+      "label": "7PM",
+      "count": 586,
+      "hour": 19
+    },
+    {
+      "label": "8PM",
+      "count": 313,
+      "hour": 20
+    },
+    {
+      "label": "9PM",
+      "count": 162,
+      "hour": 21
+    },
+    {
+      "label": "10PM",
+      "count": 26,
+      "hour": 22
+    },
+    {
+      "label": "11PM",
+      "count": 5,
+      "hour": 23
+    }
+  ],
+  "sizes": [
+    {
+      "size": 1,
+      "count": 117
+    },
+    {
+      "size": 2,
+      "count": 1435
+    },
+    {
+      "size": 3,
+      "count": 231
+    },
+    {
+      "size": 4,
+      "count": 238
+    },
+    {
+      "size": 5,
+      "count": 81
+    },
+    {
+      "size": 6,
+      "count": 60
+    },
+    {
+      "size": 7,
+      "count": 14
+    },
+    {
+      "size": 8,
+      "count": 23
+    },
+    {
+      "size": 9,
+      "count": 19
+    },
+    {
+      "size": 10,
+      "count": 10
+    },
+    {
+      "size": 11,
+      "count": 5
+    },
+    {
+      "size": 12,
+      "count": 17
+    },
+    {
+      "size": 13,
+      "count": 2
+    },
+    {
+      "size": 14,
+      "count": 8
+    },
+    {
+      "size": 15,
+      "count": 4
+    },
+    {
+      "size": 16,
+      "count": 1
+    },
+    {
+      "size": 17,
+      "count": 2
+    },
+    {
+      "size": 18,
+      "count": 2
+    },
+    {
+      "size": 20,
+      "count": 2
+    },
+    {
+      "size": 21,
+      "count": 1
+    },
+    {
+      "size": 23,
+      "count": 2
+    },
+    {
+      "size": 25,
+      "count": 1
+    },
+    {
+      "size": 26,
+      "count": 2
+    },
+    {
+      "size": 27,
+      "count": 1
+    },
+    {
+      "size": 30,
+      "count": 2
+    },
+    {
+      "size": 35,
+      "count": 1
+    },
+    {
+      "size": 36,
+      "count": 1
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2026-01",
+      "reservations": 763,
+      "covers": 2423,
+      "firstVisit": 399,
+      "cancelled": 0,
+      "noShow": 0
+    },
+    {
+      "month": "2026-02",
+      "reservations": 1099,
+      "covers": 3082,
+      "firstVisit": 447,
+      "cancelled": 195,
+      "noShow": 25
+    },
+    {
+      "month": "2026-03",
+      "reservations": 420,
+      "covers": 1330,
+      "firstVisit": 145,
+      "cancelled": 54,
+      "noShow": 6
+    }
+  ]
+}

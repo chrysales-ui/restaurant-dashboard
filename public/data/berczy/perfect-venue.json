@@ -1,0 +1,2293 @@
+{
+  "statuses": [
+    {
+      "status": "Lost",
+      "count": 374
+    },
+    {
+      "status": "Completed",
+      "count": 179
+    },
+    {
+      "status": "Confirmed",
+      "count": 31
+    },
+    {
+      "status": "Proposal Sent",
+      "count": 27
+    },
+    {
+      "status": "Lead",
+      "count": 8
+    },
+    {
+      "status": "Qualified",
+      "count": 5
+    },
+    {
+      "status": "472.98,,,₱0.00,0,1473,,,,,,,BERCZY - $79 Heritage Dinner,No,Social Media,No",
+      "count": 1
+    }
+  ],
+  "lostReasons": [
+    {
+      "reason": "unresponsive",
+      "count": 172
+    },
+    {
+      "reason": "chose another venue",
+      "count": 46
+    },
+    {
+      "reason": "canceled",
+      "count": 40
+    },
+    {
+      "reason": "other",
+      "count": 40
+    },
+    {
+      "reason": "not available",
+      "count": 25
+    },
+    {
+      "reason": "price",
+      "count": 20
+    },
+    {
+      "reason": "group too large",
+      "count": 13
+    },
+    {
+      "reason": "canceled, other",
+      "count": 2
+    }
+  ],
+  "monthly": [
+    {
+      "month": "2024-05",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "month": "2024-06",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "month": "2024-07",
+      "leads": 6,
+      "completed": 1,
+      "lost": 5
+    },
+    {
+      "month": "2024-08",
+      "leads": 24,
+      "completed": 15,
+      "lost": 9
+    },
+    {
+      "month": "2024-09",
+      "leads": 40,
+      "completed": 9,
+      "lost": 31
+    },
+    {
+      "month": "2024-10",
+      "leads": 41,
+      "completed": 13,
+      "lost": 28
+    },
+    {
+      "month": "2024-11",
+      "leads": 37,
+      "completed": 13,
+      "lost": 24
+    },
+    {
+      "month": "2024-12",
+      "leads": 21,
+      "completed": 8,
+      "lost": 13
+    },
+    {
+      "month": "2025-01",
+      "leads": 24,
+      "completed": 7,
+      "lost": 15
+    },
+    {
+      "month": "2025-02",
+      "leads": 12,
+      "completed": 3,
+      "lost": 9
+    },
+    {
+      "month": "2025-03",
+      "leads": 24,
+      "completed": 8,
+      "lost": 11
+    },
+    {
+      "month": "2025-04",
+      "leads": 25,
+      "completed": 10,
+      "lost": 14
+    },
+    {
+      "month": "2025-05",
+      "leads": 22,
+      "completed": 7,
+      "lost": 13
+    },
+    {
+      "month": "2025-06",
+      "leads": 18,
+      "completed": 7,
+      "lost": 9
+    },
+    {
+      "month": "2025-07",
+      "leads": 33,
+      "completed": 12,
+      "lost": 17
+    },
+    {
+      "month": "2025-08",
+      "leads": 43,
+      "completed": 5,
+      "lost": 33
+    },
+    {
+      "month": "2025-09",
+      "leads": 40,
+      "completed": 15,
+      "lost": 23
+    },
+    {
+      "month": "2025-10",
+      "leads": 44,
+      "completed": 11,
+      "lost": 30
+    },
+    {
+      "month": "2025-11",
+      "leads": 60,
+      "completed": 12,
+      "lost": 46
+    },
+    {
+      "month": "2025-12",
+      "leads": 30,
+      "completed": 8,
+      "lost": 14
+    },
+    {
+      "month": "2026-01",
+      "leads": 31,
+      "completed": 10,
+      "lost": 16
+    },
+    {
+      "month": "2026-02",
+      "leads": 30,
+      "completed": 4,
+      "lost": 10
+    },
+    {
+      "month": "2026-03",
+      "leads": 16,
+      "completed": 0,
+      "lost": 2
+    }
+  ],
+  "daily": [
+    {
+      "date": "2024-05-14",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-06-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-06-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-07-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-07-18",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-07-23",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-07-24",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-07-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-01",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-08",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-12",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-14",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-15",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-17",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-20",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-21",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-22",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-23",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-08-27",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-28",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-08-29",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-08-30",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-01",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2024-09-02",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-03",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-04",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-05",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-06",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-09-09",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-09-10",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-11",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-12",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-13",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-09-14",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-17",
+      "leads": 4,
+      "completed": 2,
+      "lost": 2
+    },
+    {
+      "date": "2024-09-18",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-19",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-24",
+      "leads": 4,
+      "completed": 0,
+      "lost": 4
+    },
+    {
+      "date": "2024-09-26",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2024-09-27",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-09-30",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-01",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-02",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-03",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-04",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-07",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-08",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-09",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-10-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-11",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-16",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-17",
+      "leads": 7,
+      "completed": 4,
+      "lost": 3
+    },
+    {
+      "date": "2024-10-18",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-19",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-22",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-23",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-10-24",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2024-10-25",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2024-10-28",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-10-30",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2024-10-31",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-01",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-04",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-11-05",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2024-11-06",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2024-11-07",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-08",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-11",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2024-11-13",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-14",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-15",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2024-11-18",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-21",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-22",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-25",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-26",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-11-27",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2024-11-29",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-12-03",
+      "leads": 4,
+      "completed": 1,
+      "lost": 3
+    },
+    {
+      "date": "2024-12-05",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-06",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-07",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-11",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-12-12",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-12-13",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2024-12-16",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-17",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-18",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2024-12-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2024-12-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-07",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-09",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-11",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-13",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-17",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-18",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-20",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-01-21",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-23",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-01-24",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-27",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-01-29",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-01-30",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-02-03",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-02-04",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-06",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-11",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-02-13",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-19",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-02-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-02-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-02-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-01",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-03",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-04",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-03-06",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-10",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-11",
+      "leads": 3,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-03-13",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-14",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-03-18",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-03-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-22",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-03-24",
+      "leads": 2,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-03-26",
+      "leads": 3,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-27",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-03-31",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-04-01",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-02",
+      "leads": 5,
+      "completed": 2,
+      "lost": 3
+    },
+    {
+      "date": "2025-04-04",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-04-05",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-04-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-09",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-04-11",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-12",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-14",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-04-16",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-17",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-04-19",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-22",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-04-25",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-02",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-05",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-05-06",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-07",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-05-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-09",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-10",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-05-12",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-05-13",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-05-26",
+      "leads": 3,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-05-27",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-05-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-06-02",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-06-04",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-06-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-06-09",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-06-11",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-06-17",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-06-19",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-20",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-24",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-06-30",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-02",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-07-04",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-06",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-07-07",
+      "leads": 3,
+      "completed": 2,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-08",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2025-07-09",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-11",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-14",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-16",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-19",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-07-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-22",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-07-23",
+      "leads": 3,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-24",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-07-25",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-07-29",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-07-30",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-08-03",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-04",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-08-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-07",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-08-11",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-12",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-08-13",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-08-14",
+      "leads": 5,
+      "completed": 1,
+      "lost": 3
+    },
+    {
+      "date": "2025-08-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-08-17",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-18",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-20",
+      "leads": 5,
+      "completed": 0,
+      "lost": 4
+    },
+    {
+      "date": "2025-08-21",
+      "leads": 4,
+      "completed": 0,
+      "lost": 4
+    },
+    {
+      "date": "2025-08-22",
+      "leads": 8,
+      "completed": 1,
+      "lost": 7
+    },
+    {
+      "date": "2025-08-24",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-08-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-08-27",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-09-03",
+      "leads": 5,
+      "completed": 2,
+      "lost": 3
+    },
+    {
+      "date": "2025-09-04",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-09-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-06",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-07",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-08",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-09",
+      "leads": 4,
+      "completed": 3,
+      "lost": 0
+    },
+    {
+      "date": "2025-09-10",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-09-11",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2025-09-12",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-15",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2025-09-17",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-18",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-09-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-22",
+      "leads": 5,
+      "completed": 3,
+      "lost": 2
+    },
+    {
+      "date": "2025-09-23",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-09-24",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-09-29",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-09-30",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-10-01",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-10-02",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-04",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-10-07",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-09",
+      "leads": 4,
+      "completed": 0,
+      "lost": 4
+    },
+    {
+      "date": "2025-10-14",
+      "leads": 4,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-10-15",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-10-16",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-17",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-19",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-20",
+      "leads": 4,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-21",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-22",
+      "leads": 4,
+      "completed": 1,
+      "lost": 3
+    },
+    {
+      "date": "2025-10-23",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-24",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-27",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-10-29",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-10-30",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-10-31",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-03",
+      "leads": 6,
+      "completed": 1,
+      "lost": 5
+    },
+    {
+      "date": "2025-11-04",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-05",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-11-06",
+      "leads": 7,
+      "completed": 2,
+      "lost": 5
+    },
+    {
+      "date": "2025-11-07",
+      "leads": 7,
+      "completed": 0,
+      "lost": 6
+    },
+    {
+      "date": "2025-11-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-10",
+      "leads": 4,
+      "completed": 2,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-11",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-12",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-13",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-14",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-11-17",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-18",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-19",
+      "leads": 4,
+      "completed": 3,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-20",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-11-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-23",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-24",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-11-25",
+      "leads": 3,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-11-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-11-27",
+      "leads": 4,
+      "completed": 0,
+      "lost": 4
+    },
+    {
+      "date": "2025-11-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-12-01",
+      "leads": 3,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2025-12-02",
+      "leads": 5,
+      "completed": 2,
+      "lost": 2
+    },
+    {
+      "date": "2025-12-03",
+      "leads": 4,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2025-12-04",
+      "leads": 4,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-12-05",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2025-12-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-12-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-11",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-12-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-17",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-19",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-21",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2025-12-30",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2025-12-31",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-03",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-06",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-01-07",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-01-08",
+      "leads": 3,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-09",
+      "leads": 4,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2026-01-12",
+      "leads": 4,
+      "completed": 2,
+      "lost": 2
+    },
+    {
+      "date": "2026-01-14",
+      "leads": 2,
+      "completed": 2,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-15",
+      "leads": 3,
+      "completed": 1,
+      "lost": 2
+    },
+    {
+      "date": "2026-01-16",
+      "leads": 3,
+      "completed": 0,
+      "lost": 3
+    },
+    {
+      "date": "2026-01-19",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-01-22",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2026-01-25",
+      "leads": 1,
+      "completed": 1,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-01-30",
+      "leads": 4,
+      "completed": 2,
+      "lost": 2
+    },
+    {
+      "date": "2026-02-02",
+      "leads": 2,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-04",
+      "leads": 2,
+      "completed": 1,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-06",
+      "leads": 3,
+      "completed": 3,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-12",
+      "leads": 4,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-13",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-14",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-15",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-16",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-17",
+      "leads": 2,
+      "completed": 0,
+      "lost": 2
+    },
+    {
+      "date": "2026-02-18",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-19",
+      "leads": 2,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-20",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-24",
+      "leads": 3,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-25",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-02-26",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-02-28",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-01",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-02",
+      "leads": 2,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-03-03",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-04",
+      "leads": 3,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-05",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-06",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-08",
+      "leads": 1,
+      "completed": 0,
+      "lost": 1
+    },
+    {
+      "date": "2026-03-09",
+      "leads": 3,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-10",
+      "leads": 1,
+      "completed": 0,
+      "lost": 0
+    },
+    {
+      "date": "2026-03-11",
+      "leads": 2,
+      "completed": 0,
+      "lost": 0
+    }
+  ],
+  "totalCompletedRevenue": 546377,
+  "avgRevenuePerEvent": 3595,
+  "closeRate": 32.4
+}

@@ -1,0 +1,27 @@
+{
+  "monthly": [
+    {
+      "month": "2026-01",
+      "total": 48688,
+      "delivered": 35711,
+      "opened": 11665,
+      "clicked": 919,
+      "unsubscribed": 381,
+      "replied": 12,
+      "openRate": 24,
+      "clickRate": 1.9,
+      "unsubRate": 0.8
+    }
+  ],
+  "subscribersByMonth": [
+    {
+      "month": "2026-01",
+      "count": 100
+    },
+    {
+      "month": "2026-02",
+      "count": 5
+    }
+  ],
+  "totalSubscribers": 105
+}
