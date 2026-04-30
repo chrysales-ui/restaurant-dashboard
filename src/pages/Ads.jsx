@@ -85,12 +85,12 @@ function compute(data, start, end) {
   const prevEmailMonth = emailDp.total > 0 ? { ...emailDp, openRate: emailDp.total>0 ? +(emailDp.opened/emailDp.total*100).toFixed(1) : 0, clickRate: emailDp.total>0 ? +(emailDp.clicked/emailDp.total*100).toFixed(1) : 0 } : null;
 
   // Google campaign breakdown: Search vs PMax
-  const campWindow     = (data.googleAds?.campMonthly || []).filter(r => r.month >= cs.slice(0,7) && r.month <= end.slice(0,7));
-  const prevCampWindow = (data.googleAds?.campMonthly || []).filter(r => r.month >= ps.slice(0,7) && r.month <= pe.slice(0,7));
+  const campWindow     = (data.googleAds?.campDaily || []).filter(r => r.date >= cs && r.date <= end);
+  const prevCampWindow = (data.googleAds?.campDaily || []).filter(r => r.date >= ps && r.date <= pe);
   const searchRes     = campWindow.filter(r => /search/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
-  const pmaxRes       = campWindow.filter(r => /pmax|performance/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
+  const pmaxRes       = campWindow.filter(r => /pmax/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
   const prevSearchRes = prevCampWindow.filter(r => /search/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
-  const prevPmaxRes   = prevCampWindow.filter(r => /pmax|performance/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
+  const prevPmaxRes   = prevCampWindow.filter(r => /pmax/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
 
   return {
     cs, end, c, p, fb, fbp, ga, gap, gsp, googleTotal, googleTotalPrev,

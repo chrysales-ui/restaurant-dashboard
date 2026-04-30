@@ -99,7 +99,7 @@ async function processFacebook() {
 
 async function processGoogleAds() {
   const lines = await fetchCSV(TABS.googleAds);
-  const monthly = {}, daily = {}, campaigns = {}, campMonthly = {};
+  const monthly = {}, daily = {}, campaigns = {}, campMonthly = {}, campDaily = {};
   for (let i = 3; i < lines.length; i++) {
     const col = parseCSVLine(lines[i]);
     if (!col[0] || !col[0].match(/^\d{4}/)) continue;
@@ -123,6 +123,9 @@ async function processGoogleAds() {
       if (!campMonthly[ck]) campMonthly[ck] = { month: key, name: campaign, spend: 0, clicks: 0, impressions: 0, reservations: 0, storeVisits: 0, calls: 0 };
       campMonthly[ck].spend += spend; campMonthly[ck].clicks += clicks;
       campMonthly[ck].impressions += impr; campMonthly[ck].reservations += res; campMonthly[ck].storeVisits += storeVisits; campMonthly[ck].calls += calls;
+      const dk = `${campaign}||${date}`;
+      if (!campDaily[dk]) campDaily[dk] = { date, name: campaign, reservations: 0 };
+      campDaily[dk].reservations += res;
     }
   }
   const arr = Object.values(monthly).sort((a,b) => a.month.localeCompare(b.month));
@@ -147,7 +150,8 @@ async function processGoogleAds() {
     d.cpc = d.clicks > 0 ? +(d.spend/d.clicks).toFixed(2) : 0;
     d.costPerRes = d.reservations > 0 ? +(d.spend/d.reservations).toFixed(2) : 0;
   });
-  return { monthly: arr, daily: dailyArr, campaigns: campArr, campMonthly: campMonthlyArr };
+  const campDailyArr = Object.values(campDaily).sort((a,b) => a.date.localeCompare(b.date));
+  return { monthly: arr, daily: dailyArr, campaigns: campArr, campMonthly: campMonthlyArr, campDaily: campDailyArr };
 }
 
 async function processGooglePrivate() {

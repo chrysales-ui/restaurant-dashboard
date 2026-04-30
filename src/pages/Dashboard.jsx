@@ -90,14 +90,14 @@ function compute(data, start, end) {
   const emailDp = sumW(data.email?.daily, ps, pe,  ['total','opened','clicked']);
   const emailMonth = { ...emailD, openRate: emailD.total>0 ? +(emailD.opened/emailD.total*100).toFixed(1) : 0, clickRate: emailD.total>0 ? +(emailD.clicked/emailD.total*100).toFixed(1) : 0 };
   const prevEmailMonth = emailDp.total > 0 ? { ...emailDp, openRate: emailDp.total>0 ? +(emailDp.opened/emailDp.total*100).toFixed(1) : 0, clickRate: emailDp.total>0 ? +(emailDp.clicked/emailDp.total*100).toFixed(1) : 0 } : null;
-  const campWindow     = (data.googleAds?.campMonthly || []).filter(r => r.month >= cs.slice(0,7) && r.month <= end.slice(0,7));
-  const prevCampWindow = (data.googleAds?.campMonthly || []).filter(r => r.month >= ps.slice(0,7) && r.month <= pe.slice(0,7));
+  const campWindow     = (data.googleAds?.campDaily || []).filter(r => r.date >= cs && r.date <= end);
+  const prevCampWindow = (data.googleAds?.campDaily || []).filter(r => r.date >= ps && r.date <= pe);
   const searchRes     = campWindow.filter(r => /search/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
-  const pmaxRes       = campWindow.filter(r => /pmax|performance/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
+  const pmaxRes       = campWindow.filter(r => /pmax/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
   const prevSearchRes = prevCampWindow.filter(r => /search/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
-  const prevPmaxRes   = prevCampWindow.filter(r => /pmax|performance/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
+  const prevPmaxRes   = prevCampWindow.filter(r => /pmax/i.test(r.name)).reduce((s, r) => s + (r.reservations || 0), 0);
   return {
-    cs, end, c, p, fb, fbp, ga, gsp, googleTotal, googleTotalPrev,
+    cs, end, ps, pe, c, p, fb, fbp, ga, gsp, googleTotal, googleTotalPrev,
     cpc, pcpc, lifetimeCpc, conv, visits, freq, fbCpc, fbCpm, fbCtr, fbLinkClicks, gCpc, gCostPerRes, prevGCostPerRes,
     emailMonth, prevEmailMonth, searchRes, pmaxRes, prevSearchRes, prevPmaxRes, gap,
     igV, igVp, fbV, fbVp, fbF, fbFp, igF, igFp,
@@ -547,7 +547,7 @@ export default function Dashboard({ restaurant }) {
   function clearIgPrev() { localStorage.removeItem(igPrevKey); setIgPrevOverride(null); }
 
   const igFromTab     = m ? sumW(data.igVisits, m.cs, m.end, ['profileVisits']).profileVisits : 0;
-  const igPrevFromTab = m ? sumW(data.igVisits, addDays(m.cs, -28), addDays(m.cs, -1), ['profileVisits']).profileVisits : 0;
+  const igPrevFromTab = m ? sumW(data.igVisits, m.ps, m.pe, ['profileVisits']).profileVisits : 0;
   const displayIg     = igOverride     != null ? igOverride     : (igFromTab > 0 ? igFromTab : m?.fb.profileVisits  ?? 0);
   const displayIgPrev = igPrevOverride != null ? igPrevOverride : (igPrevFromTab > 0 ? igPrevFromTab : m?.fbp.profileVisits ?? 0);
   const displayIgChg  = displayIg > 0 && displayIgPrev > 0 ? pct(displayIg, displayIgPrev) : m?.igChg;
